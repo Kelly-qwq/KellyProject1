@@ -19,7 +19,7 @@ fun main()
         6 to "Суббота",
         7 to "Воскресенье"
     )
-    print("Введите день года, который хотите узнать: ")
+    print("Введите день года, который хотите уpнать: ")
     var year_days = readLine()!!.toInt()
     var week_day = 2
     var user_choise = (year_days+week_day-1)%7
